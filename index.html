@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatinstore</title>
+    <link rel="stylesheet" href="style.css">
+
+
+<!-- Fonts-->
+<link rel="preconnect" href="https://fonts.ggogleapis.com"><link
+rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+
+<!-- Feater Icons-->
+<script src="https://unpkg.com/feather-icons"></script>
+
+<!-- my style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- navbar start-->
+     <nav class="navbar">
+        <a href="#" class="navbar-logo">Fatin<span>store</span>.</a>
+
+        <div class="navbar-">
+            <a href="#home">Home</a>
+            <a href="#about">Profile</a>
+            <a href="#transaksi-form">Transaksi</a>
+            <a href="#contact">Login</a>
+        </div>
+
+
+        <div class="navbar-extra">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart"><i data-feather="shopping-cart></i></a>
+            <a href="#" id="menu"><i data-feather="menu"></i></a>
+        </div>
+     </nav>
+    <!-- navbar end -->
+    
+    <!-- Feather Section start -->
+
+    <!-- Hero Section start-->
+    <Section class="hero" id="home">
+        <main class="content">
+            <h1>Baju Kualitas <span>Internasional</span></h1>
+            <p>Segera Dapatkan Dengan Sekarang juga!</p>
+            <a href="#" class="cta">Beli Sekarang</a>
+        </main>
+    </section>
+    <!-- Hero Section end-->
+
+    <!-- About Section Start-->
+     <section id="about" class="about">
+        <h2><span>Tentang</span> Kami</h2>
+
+        <div class="row">
+            <div class="about">
+                <img src="img/batik 2.jpg" alt="Tentang kami">
+            </div>
+            <div class="content">
+                <h3>Kenapa Memilih baju kami</h3>
+                <p>Tampil stylish dan percaya diri dengan koleksi baju terbaru kami—desain kekinian, nyaman dipakai, dan berkualitas premium! Nikmati diskon hingga 50% untuk waktu terbatas, segera dapatkan sebelum kehabisan!.</p>
+            </div>
+        </div>
+     </section>
+
+    <!-- Feather Section end -->
+        <div class="h2-container">
+            <h2><span>Transaksi</span>Fatinstore</h2> 
+        </div>
+    <!-- Menu Section Start-->
+    <div class="transaction-container" id="transaction-container" style="margin-top: 8rem; margin-bottom: 8rem;">
+        <h2>Transaksi</h2>
+        <form id="transaksi-form" method="">
+            <label for="nama">Nama Pelanggan</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama pelanggan">
+
+            <label for="tipe baju">Celana</label>
+            <select id="tipe-baju" name="tipe-baju">
+                <option value="" disabled="" selected="">Pilih Baju</option>
+                <option value="Hitam">Baju Hitam</option>
+                <option value="Kuning">Baju Kuning</option>
+                <option value="Putih">Baju Putih</option>
+                <option value="Batik">Baju Batik</option>
+                <option value="Suprime">Baju Suprime</option>
+            </select>
+
+            <label for="tanggal-sewa">Tanggal Beli</label>
+            <input type="date" id="tanggal-sewa" name="tanggal-sewa">
+
+            <label for="biaya">Total Biaya (Rp)</label>
+            <input type="number" id="biaya" name="biaya" placeholder="Masukkan total biaya">
+
+            <button type="submit">Selesaikan Transaksi</button>
+        </form><br>
+        <div class="footer">
+            © 2025 SaidStore. Semua hak dilindungi.
+        </div>
+    </div>
+    <!-- Menu Section End-->
+
+    <!-- Contact Section start-->
+     <section id="contact" class="contact">
+     <h2><span>Login</h2>
+
+        <main class="container">
+            <h4>Login</h4>
+            <form action="">
+                <div class="input-field">
+                    <input type="text" name="username" id="username"
+                        placeholder="Enter Your Username">
+                    <div class="underline"></div>
+                </div>
+                <div class="input-field">
+                    <input type="password" name="password" id="password"
+                        placeholder="Enter Your Password">
+                    <div class="underline"></div>
+                </div>
+    
+                <input type="submit" value="Continue">
+            </form>
+    
+            <div class="footer-extra">
+                <span>Or Connect With Social Media</span>
+                <div class="social-fields">
+                    <div class="social-field twitter">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                            Sign in with Twitter
+                        </a>
+                    </div>
+                    <div class="social-field facebook">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                            Sign in with Facebook
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    <!-- Contact Section end-->
+
+    <!-- Footer start-->
+     <footer>
+        <div class="social">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+        </div>
+
+        <div class="link">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Transaksi</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="credit">
+            <p>Created by <a href="">FathinAbiyyu</a>. | &copy; 2025.</p>
+        </div>
+     </footer>
+    <!-- Footer end-->
+
+    <!-- Feater Icons -->
+    <script>
+        feather.replace();
+      </script>
+
+      <!--My Javascript-->
+     
+
+</body>
+</html>
